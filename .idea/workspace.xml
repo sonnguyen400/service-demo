@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a9664f9-00d7-46f9-b825-84f03140f453" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/IAMService2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/IamService2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/KeycloakConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/LoggingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/MethodSecConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/PasswordEncoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/PermissionEvaluatorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/config/StatementInspectorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/constant/ActionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/constant/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/constant/IDTokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/constant/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/PrivateStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/PublicStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/controller/UserManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/DuplicatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/KeycloakException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/OtpException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/TokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/exception/WorkbookValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/listener/AuditEntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/AbstractAuditEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/AccountRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/Otp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/UserActivityLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/model/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/AccountRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/PermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/RolePermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/repository/UserActivityLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/security/AuthorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/security/Oauth2Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/security/Oauth2SuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/security/UsernamePasswordAuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AbstractEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AccountRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/AuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/ForbiddenTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/KeycloakAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/KeycloakAuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/KeycloakClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/OtpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/PrivateStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/PublicStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/SendgridEmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/UserActivityLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/service/keycloakClientCredentialTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/specification/AccountSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/AbstractResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/JWTTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/JWTUtilsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/RSAKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/utils/ResponseMessageStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/AcceptedLoginRequestVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/ChangePasswordPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/FileDataListGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/FileDetailsGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/FileUploadedResponseVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/LoginPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/LoginResponseViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/PermissionGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/PermissionPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/RefreshTokenPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/RequestTokenVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/ResponseTokenVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/RoleGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/RolePostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/ThumbnailParamsVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/UserCreationPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/UserDetailGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/UserProfilePostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/UserRegistrationPostVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/java/com/sonnguyen/iamservice2/viewmodel/WorkbookValidationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/accounts_sample.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/keys/keypair.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/keys/private.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/keys/public.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/logbacks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/main/resources/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAMService2/src/test/java/com/sonnguyen/iamservice2/IamService2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/10/00c74097-953c-4efc-baad-56d321a8bc0a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/10/923b7cb8-7ac6-40ad-87ba-6d4486f9c0f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/10/f057a101-234b-4d51-a111-71cfadd8a0e4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/2996d214-687f-4779-a1f6-cab975f019ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/591fcd40-a31a-4b54-8a7c-301d54e4ea9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/7de4204e-552b-4567-95aa-90e2d47ce741.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/833b8c5a-1da5-4d68-8e6c-6d7bb801c21c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/c0a03a24-91ac-4458-92bc-867b7703bd39.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/c55f2d59-4138-44a5-b257-4bbae19920d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/cb9db72d-2479-4411-bf32-0a9e227fb806.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/d5e906f7-d726-4e1a-9323-5cd9d7a22af8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/e92ba974-bd60-4c56-a0b4-8cf1e46a75a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/ecd2444d-0ed8-465d-8173-986f4a3febc5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/file/2024-December/12/efb448ce-2d40-402b-8cb6-7c2d333c0ef8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/StorageServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/config/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/config/StatementInspectorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/constant/FileAccessType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/constant/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/controller/PrivateFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/controller/PublicFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/exception/FileStoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/exception/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/listener/AuditEntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/model/AbstractAuditEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/model/FileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/repository/FileDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/service/FileDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/specification/FileDataSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/utils/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/utils/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/viewmodel/FileDataListGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/viewmodel/FileDetailsGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/viewmodel/FileUploadedResponseVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/java/com/sonnguyen/storageservice/viewmodel/ThumbnailParamsVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StorageService/src/test/java/com/sonnguyen/storageservice/StorageServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/config/KeycloakClientCredentialTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/config/OpenFeignTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/iam/KeycloakClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/UserAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/specification/AbstractSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/specification/DynamicSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/specification/GeneralSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/utils/SearchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/vm/KeycloakCredentialGetVm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/vm/KeycloakProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/PasswordEncoderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/Call các service.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/iam/IamClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/iam/IamClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/iam/IamClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/client/iam/IamClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/config/FeignClientConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-client/src/main/java/com/evo/common/config/FeignClientInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/UserAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/UserAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/UserAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-model/src/main/java/com/evo/common/UserAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/HttpSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/HttpSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/JwkAuthenticationManagerResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/common-web/src/main/java/com/evo/common/webapp/security/JwkAuthenticationManagerResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evo-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/evo-common/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sonnguyen400&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tvdinh1008/evo-demo.git&quot;,
+    &quot;accountId&quot;: &quot;5e3afad7-a145-45d4-ae33-e1bc2b9c2f21&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2q0Or3MCpWuKJF47v2nNuZrPf2H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.IAMService2 [clean,install].executor": "Run",
+    "Maven.IAMService2 [clean].executor": "Run",
+    "Maven.IAMService2 [install].executor": "Run",
+    "Maven.StorageService [clean,install].executor": "Run",
+    "Maven.StorageService [clean].executor": "Run",
+    "Maven.StorageService [install].executor": "Run",
+    "Maven.common-model [clean].executor": "Run",
+    "Maven.common-model [install].executor": "Run",
+    "Maven.common-service [clean,install].executor": "Run",
+    "Maven.common-service [install].executor": "Run",
+    "Maven.common-web [install].executor": "Run",
+    "Maven.evo-common [clean,install].executor": "Run",
+    "Maven.evo-common [clean].executor": "Run",
+    "Maven.evo-common [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.IamService2Application.executor": "Run",
+    "Spring Boot.StorageApplication.executor": "Run",
+    "Spring Boot.StorageServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/241102/IdeaProjects/evo-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\241102\IdeaProjects\evo-demo\" />
+      <recent name="C:\Users\241102\IdeaProjects\evo-demo" />
+      <recent name="C:\Users\241102\IdeaProjects\evo-demo\evo-common\common-web\src\main\resources" />
+      <recent name="C:\Users\241102\IdeaProjects\evo-demo\evo-common\common-model\src\main\java\com\evo\common" />
+      <recent name="C:\Users\241102\IdeaProjects\evo-demo\evo-common\common-client\src\main\java\com\evo\common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sonnguyen.iamservice2.config" />
+      <recent name="com.evo.common.webapp.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IamService2Application">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="iam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evo.iam.IamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IamService2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="IAMService2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sonnguyen.iamservice2.IamService2Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sonnguyen.iamservice2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.evo.storage.StorageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="StorageService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sonnguyen.storageservice.StorageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.IamService2Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a9664f9-00d7-46f9-b825-84f03140f453" name="Changes" comment="" />
+      <created>1733796222302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733796222302</updated>
+      <workItem from="1733796223395" duration="16093000" />
+      <workItem from="1734318170129" duration="12939000" />
+      <workItem from="1734333892761" duration="7017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/evo-common/common-web/src/main/java/com/sonnguyen/common/security/impl/RemoteAuthorityServiceImpl.java</url>
+          <line>13</line>
+          <properties class="com.sonnguyen.common.security.impl.RemoteAuthorityServiceImpl">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

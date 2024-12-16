@@ -1,0 +1,9 @@
+com.sonnguyen.common.security.HttpSecurityConfiguration
+com.sonnguyen.common.config.jackson.JacksonConfiguration
+com.sonnguyen.common.config.RegexPermissionEvaluator
+com.sonnguyen.common.config.ActionLogFilter
+com.sonnguyen.common.security.impl.TokenCacheServiceImpl
+com.sonnguyen.common.security.ForbiddenTokenFilter
+com.sonnguyen.common.security.CustomAuthenticationFilter
+com.sonnguyen.common.config.JwtProperties
+com.sonnguyen.common.security.impl.RemoteAuthorityServiceImpl
